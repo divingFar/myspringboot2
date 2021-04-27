@@ -12,8 +12,18 @@ public class User {
         this.age = age;
     }
 
+    public User() {
+    }
 
     public User(String name) {
         this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
     }
 }

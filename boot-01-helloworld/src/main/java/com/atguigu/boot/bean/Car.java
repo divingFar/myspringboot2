@@ -1,30 +1,24 @@
 package com.atguigu.boot.bean;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+//@Component
+@ConfigurationProperties(prefix = "mycar")
+@Data
+@NoArgsConstructor
+@Slf4j
 public class Car {
     private String brand;
     private Integer price;
 
-    public Car(String brand, Integer price) {
-        this.brand = brand;
-        this.price = price;
+    public static void main(String[] args) {
+        log.info("helol");
     }
 
-    public Car() {
-    }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public Integer getPrice() {
-        return price;
-    }
-
-    public void setPrice(Integer price) {
-        this.price = price;
-    }
 }
