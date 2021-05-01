@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>boot-01-helloworld</module>
+        <module>boot-05-web-01</module>
     </modules>
 
     <parent>
@@ -34,6 +35,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        
 
         <dependency>
             <groupId>org.projectlombok</groupId>

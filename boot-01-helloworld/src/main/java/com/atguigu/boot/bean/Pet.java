@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 public class Pet {
     private String name;
     private Double weight;
+    private int age;
 
     public Pet(String name) {
         this.name = name;
