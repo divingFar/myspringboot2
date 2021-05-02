@@ -6,6 +6,7 @@
     <modules>
         <module>boot-01-helloworld</module>
         <module>boot-05-web-01</module>
+        <module>boot-05-web-admin</module>
     </modules>
 
     <parent>
